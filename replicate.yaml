@@ -1,4 +1,4 @@
-name: rodin-replicate
+name: hyper3d/rodin
 python_version: "3.10"
 packages:
   - torch
@@ -6,4 +6,13 @@ packages:
   - diffusers
   - accelerate
   - transformers
+  - huggingface_hub
+  - filetype
+  - numpy
+  - PIL
+  - trimesh
+  - imageio
+  - open3d
+  - scikit-image
+  - any other required lib
 predict: predict.py:Predictor
